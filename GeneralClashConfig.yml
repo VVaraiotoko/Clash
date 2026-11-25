@@ -64,7 +64,7 @@ experimental:
 
 dns:
   enable: true
-  listen: '0.0.0.0:1053'
+  listen: '0.0.0.0:7874'
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
