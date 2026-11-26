@@ -120,7 +120,6 @@ dns:
     - time1.cloud.tencent.com
     - lens.l.google.com
     - +.music.163.com
-    - +.126.net
     - musicapi.taihe.com
     - music.taihe.com
     - songsearch.kugou.com
