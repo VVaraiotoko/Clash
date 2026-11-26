@@ -78,7 +78,9 @@ dns:
     - 'https://zone.rlose.com:39933/api-query'
     - 'https://radar.rlose.com/api-query'
   proxy-server-nameserver:
-    - 'udp://127.0.0.1:7874'
+    - 'https://zone.rlose.com:39933/api-query'
+    - 'https://radar.rlose.com/api-query'
+    # - 'udp://127.0.0.1:7874'
   fake-ip-filter:
     - '*.lan'
     - '*.linksys.com'
