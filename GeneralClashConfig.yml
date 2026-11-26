@@ -24,7 +24,7 @@ allow-lan: true
 # #"[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
 bind-address: "*"
 
-ipv6: true
+ipv6: false
 
 # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
 mode: rule
@@ -78,9 +78,9 @@ dns:
     - 'https://zone.rlose.com:39933/api-query'
     - 'https://radar.rlose.com/api-query'
   proxy-server-nameserver:
-    - 'https://zone.rlose.com:39933/api-query'
-    - 'https://radar.rlose.com/api-query'
-    # - 'udp://127.0.0.1:7874'
+    - 'udp://127.0.0.1:7874'
+    # - 'https://zone.rlose.com:39933/api-query'
+    # - 'https://radar.rlose.com/api-query'
   fake-ip-filter:
     - '*.lan'
     - '*.linksys.com'
